@@ -35,6 +35,8 @@ header {
 	color: #8BC34A;
 	margin-left: 1448px;
 	cursor: pointer;
+	font-size: 12px;
+	letter-spacing: 1px;
 	background-color: unset;
 }
 .about {
@@ -204,6 +206,7 @@ header {
 	font-family: Roboto-Regular;
 	margin-top: 40px;
 	font-weight: 500;
+	letter-spacing: 1px;
 	cursor: pointer;
 }
 .rectangle-start {	
@@ -490,24 +493,24 @@ header {
   margin-top: -14px;
   border: 2px solid #FFFFFF;
   border-radius: 100px;
-  transition-all: 0.5s linear;
-  transition-all: 0.5s linear;
-  -moz-transition-all: 0.5s linear;
-  -webkit-transition-all: 0.5s linear;
-  -moz-transition-all: 0.5s linear;
-  -webkit-transition-all: 0.5s linear;
+  transition:width 0.05s linear;
+  transition:height 0.05s linear;
+  -moz-transition:width 0.05s linear;
+  -webkit-transition:width 0.05s linear;
+  -moz-transition:height 0.05s linear;
+  -webkit-transition:height 0.05s linear;
 }
 .our-customers-avatar:hover{
 	margin-left: -23px !important;
 }
 .our-customers-avatar:hover .our-customers-name {
 	margin-left: 12px;
-	transition-all: 0.5s linear;
-  -moz-transition-all: 0.5s linear;
-  -webkit-transition-all: 0.5s linear;
+	transition:all 0.05s linear;
+  -moz-transition:all 0.05s linear;
+  -webkit-transition:all 0.05s linear;
 }
 .our-customers-name {
-	margin-top: 16px;
+	padding-top: 16px;
 	margin-bottom: 256px;
 	text-align: center;
 	width: 80px;
@@ -604,14 +607,17 @@ footer {
 	line-height: 18px;
 	font-family: Roboto-Regular;
 }
-.about-us-about-hapo {
+.about-us-about-hapo a{
+	color: #D0D8DC;
+	font-size: 10px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.about-us-about-hapo{
 	margin: 0px;
 	padding-top: 14px;
 	height: 40px;
 	width: 76px;
-	color: #D0D8DC;
-	font-size: 10px;
-	font-weight: 500;
 	line-height: 20px;
 }
 .mark-footer-column-2 {
@@ -644,6 +650,9 @@ footer {
 	margin-top: 108px;
 	float: left;
 	width: 555px;
+}
+.mark-footer-link a{
+	text-decoration: none;
 }
 .our-customers-layout {
 	margin-top: 24px;

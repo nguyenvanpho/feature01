@@ -6,13 +6,9 @@
 	font-family: 'Roboto-Italic';
 	src: url(../fonts/Roboto-Italic.ttf);  
 }
- @font-face {
-	font-family: 'Roboto-Condensed';
-	src: url(../fonts/Roboto-Condensed.ttf);  
-}
 @font-face {
-	font-family: 'Roboto-Bold';
-	src: url(../fonts/Roboto-Bold.ttf);  
+	font-family: 'Roboto-Regular';
+	src: url(../fonts/Roboto-Regular.ttf);  
 }
 @font-face {
 	font-family: 'Roboto-Medium';
@@ -38,6 +34,8 @@ header {
 	border-radius: 100px;
 	color: #8BC34A;
 	margin-left: 1448px;
+	cursor: pointer;
+	background-color: unset;
 }
 .about {
 	display: inline-block;
@@ -106,13 +104,13 @@ header {
 }
 .lorem-ipsum-is-simpl {	
 	height: 24px;	
-	width: 604px;	
+	width: 569px;	
 	margin-left: 698px;
 	margin-top: 53px;
 }
 .lorem-ipsum-is-simpl p{	
 	color: #283238;	
-	font-size: 18px;	
+	font-size: 17px;	
 	line-height: 24px;
 	font-family: Roboto-Italic;
 }
@@ -159,15 +157,17 @@ header {
 	font-size: 36px;
 	margin-top: 144px;	
 }
-.lorem-ipsum-is-simpl-copy {
+.lorem-ipsum-is-simpl-copy{
 	display: inline-block;
 	height: 19px;
 	width: 470px;
+	padding-top: 16px;
+}
+.lorem-ipsum-is-simpl-copy span{
 	color: #283238;
 	font-size: 14px;
 	font-style: italic;
-	line-height: 19px;
-	padding-top: 16px;
+	line-height: 19px;	
 }
 .text-lorem {
 	display: inline-block;
@@ -184,6 +184,10 @@ header {
 }
 .text-lorem-report p {
 	margin: 0px;
+	color: #283238;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
 }
 .our-customers-content p{
 	margin: 0px;
@@ -194,11 +198,13 @@ header {
 	border-radius: 100px;	
 	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	color: white;
+	color: #FFFFFF;
 	border: none;
 	font-size: 18px;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Regular;
 	margin-top: 40px;
+	font-weight: 500;
+	cursor: pointer;
 }
 .rectangle-start {	
 	margin-left: 847px !important;
@@ -257,24 +263,22 @@ header {
 	margin-left: 390px;
 	float: left;
 }
-.lorem-ipsum-is-simpl-member {
+.lorem-ipsum-is-simpl-member{
 	display: inline-block;
 	height: 19px;
 	width: 470px;
+	padding-top: 16px;
+}
+.lorem-ipsum-is-simpl-member {
 	color: #283238;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 19px;
-	padding-top: 16px;
 }
 .text-lorem-report {
 	display: inline-block;
 	height: 188px;
 	width: 475px;
-	color: #283238;
-	font-size: 13px;
-	line-height: 24px;
-	text-align: justify;
 	padding-top: 30px;
 }
 .daily-report-right {
@@ -343,7 +347,7 @@ header {
 	letter-spacing: 1px;
 	line-height: 24px;
 	float: left;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Regular;
 }
 .daily-report-three {
 	padding-left: 115px;
@@ -427,7 +431,7 @@ header {
 	line-height: 24px;	
 	text-align: justify;
 	padding-left: 18px;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Regular;
 }
 .marks-right-member img {
 	width: 510px;
@@ -471,7 +475,8 @@ header {
 }
 .our-customers-employees {
 	padding-top: 48px;
-	padding-left: 398px;
+	padding-left: 380px;
+	/*padding-left: 398px;*/
 	height: 127px;
 }
 .our-customers-avatar {
@@ -485,9 +490,21 @@ header {
   margin-top: -14px;
   border: 2px solid #FFFFFF;
   border-radius: 100px;
+  transition-all: 0.5s linear;
+  transition-all: 0.5s linear;
+  -moz-transition-all: 0.5s linear;
+  -webkit-transition-all: 0.5s linear;
+  -moz-transition-all: 0.5s linear;
+  -webkit-transition-all: 0.5s linear;
+}
+.our-customers-avatar:hover{
+	margin-left: -23px !important;
 }
 .our-customers-avatar:hover .our-customers-name {
 	margin-left: 12px;
+	transition-all: 0.5s linear;
+  -moz-transition-all: 0.5s linear;
+  -webkit-transition-all: 0.5s linear;
 }
 .our-customers-name {
 	margin-top: 16px;
@@ -585,7 +602,7 @@ footer {
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 18px;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Regular;
 }
 .about-us-about-hapo {
 	margin: 0px;
@@ -691,8 +708,8 @@ footer {
   background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
  	color: white;
 }
-.font-general-medium {
-  font-family: Roboto-Medium;
+.font-general-regular {
+  font-family: Roboto-Regular;
 }
 .font-general-light {
   font-family: Roboto-Light;

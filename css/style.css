@@ -99,14 +99,14 @@ header {
 	font-family: Roboto-Light;
 }
 .lorem-ipsum-is-simpl {	
-	height: 24px;	
-	width: 569px;	
-	margin-left: 698px;
-	margin-top: 53px;
+	height: 24px;
+	padding-top: 53px;
 }
 .lorem-ipsum-is-simpl p{	
+	margin: 0px;
+	text-align: center;
 	color: #283238;	
-	font-size: 17px;	
+	font-size: 18px;	
 	line-height: 24px;
 	font-family: Roboto-Italic;
 }
@@ -117,46 +117,45 @@ header {
 	background-color: #FFFFFF;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.i-learnt-left {
-	width: 666px;
-	margin-left: 181px;
-	margin-top: 52px;
+.left {
+	width: 50%;
+	height: 100%;
 	float: left;
 }
-.i-learnt-left img {
-	width: 666px;
-	height: 609px;
+.i-learn-left {
+	padding-left: 181px;
+	padding-top: 52px;
 }
-.i-learnt-right {
+.right {
 	float: left;
-	width: 660px;
-	padding-left: 128px;
+	width: 50%;
+	height: 100%;
 }
 .today-i-learnt{
-	width: 308px;
 	float: left;
-	margin-top: 129px;
-	height: 63px;	
+	padding-left: 15px;
+	padding-right: 390px;
+	padding-top: 129px;
 }
-.today-i-learnt p {
+.today-i-learnt-title p {
 	margin: 0px;
+	padding-left: 19px;
+	float: left;
 	color: #444444;		
 	font-size: 48px;	
 	font-weight: 300;
 	line-height: 63px;
-	padding-left: 19px;
 	font-family: Roboto-Light;
 }
 .ti-bookmark-alt {
 	float: left;	
 	color: #444444;	
 	font-size: 36px;
-	margin-top: 144px;	
+	margin-top: 14px;	
 }
 .lorem-ipsum-is-simpl-copy{
 	display: inline-block;
 	height: 19px;
-	width: 470px;
 	padding-top: 16px;
 }
 .lorem-ipsum-is-simpl-copy span{
@@ -167,8 +166,6 @@ header {
 }
 .text-lorem {
 	display: inline-block;
-	height: 168px;
-	width: 555px;
 	color: #283238;
 	font-size: 13px;
 	line-height: 24px;
@@ -189,7 +186,7 @@ header {
 	margin: 0px;
 }
 .start-now {
-	padding: 18px 56px;
+	padding: 19px 56px;
 	border-radius: 100px;	
 	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
@@ -204,7 +201,7 @@ header {
 }
 .rectangle-start {	
 	margin-left: 847px !important;
-	margin-top: 22px !important;
+	/*margin-top: 22px !important;*/
 	margin-bottom: 232px !important;
 }
 .rectangle-start-today-i-learn {
@@ -222,66 +219,34 @@ header {
 	margin-bottom: 88px;
 }
 .mark-project {
-	height: 641px;
+	height: 644px;
 	width: 1920px;
 	background-color: #FFFFFF;
 }
 .ti-write {
 	float: left;
-	margin-top: 124px;
+	margin-top: 14px;
 	color: #444444;	
 	font-size: 36px;
 }
-.daily-report p{
-	margin: 0px;
-	color: #444444;
-	font-size: 48px;
-	font-weight: 300;
-	line-height: 63px;
-	padding-left: 18px;
-	font-family: Roboto-Light;
-}
-.daily-report {
-	float: left;
-	height: 63px;
-	width: 282px;
-	margin-top: 110px;
-}
 .mark-daily-report {
 	margin-top: 35px;
-	height: 609px;
+	height: 636px;
 	width: 1920px;
 	background-color: #FFFFFF;
 }
 .daily-report-left {
-	/*height:661px;*/
-	width: 477px;
-	margin-left: 390px;
+	padding-right: 100px;
+	padding-left: 390px;
+	padding-top: 110px;
 	float: left;
-}
-.lorem-ipsum-is-simpl-member{
-	display: inline-block;
-	height: 19px;
-	width: 470px;
-	padding-top: 16px;
-}
-.lorem-ipsum-is-simpl-member {
-	color: #283238;
-	font-size: 14px;
-	font-style: italic;
-	line-height: 19px;
 }
 .text-lorem-report {
 	display: inline-block;
-	height: 188px;
-	width: 475px;
 	padding-top: 30px;
 }
 .daily-report-right {
-	float: left;
-	padding-left: 194px;	
-}
-.daily-report-right img {
+	padding-left: 47.3px;
 	width: 858px;
 	height: 609px;
 }
@@ -291,77 +256,29 @@ header {
 	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 .select-number {
-	margin-left: 392.75px;
+	margin-left: 316.8px;
 	height: 130px;
-	margin-right: 387.75px;
+	margin-right: 316.8px;
 	padding-top: 68.75px;
 }
 .number{
+	padding-left: 27%;
 	width: 109.5px;
 }
-.number-one{
-	float: left;
-}
-.number-two{
-	float: left;
-	padding-left: 147.5px;
-}
-.number-three{
-	float: left;
-	padding-left: 149.5px;
-}
-.number-four{
-	float: left;
-	padding-left: 156.5px;
-}
-.number-five{
-	float: left;
-	padding-left: 138.5px;
-}
-.icon-one {
-	height: 36px;	
-	width: 36px;	
-	color: white;	
-	font-size: 36px;	
-	line-height: 36px;
-	margin-top: 35px;
-	margin-left: 33px;
-}
-.select-text {
-	height: 24px;
-	display: inline-block;
-	margin-left: 386px;
-	margin-top: 28.75px;
-}
-.daily-report-general {
-	display: inline-block;
-	height: 24px;
+.daily-report-name {
 	color: #FFFFFF;
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 24px;
-	float: left;
+	text-align: center;
+	padding-top: 24.75px;
+	padding-bottom: 70px;
 	font-family: Roboto-Regular;
 }
-.daily-report-three {
-	padding-left: 130px;
-	width: 188px;
-}
-.daily-report-two{
-	width: 142px;
-}
-.daily-report-two {
-	padding-left: 140px;
-	width: 98px;
-}
-.daily-report-four {
-	padding-left: 60px;
-	width: 210px;
-}
-.daily-report-five {
-	padding-left: 48px;
-	width: 191px;
+.number-one{
+	width: 20%;
+	float: left;
 }
 .ti-user {
 	float: left;
@@ -369,7 +286,17 @@ header {
 	width: 36px;	
 	color: #444444;	
 	font-size: 36px;	
-	margin-top: 111px;
+	margin-top: 14px;
+}
+.marks-right-member {
+	float: left;
+	padding-top: 97px;
+	padding-left: 45px;
+}
+.marks-left-member {
+	padding-left: 390px;
+	padding-top: 97px;
+	float: left;
 }
 .mask_member {
 	height: 575px;
@@ -377,45 +304,31 @@ header {
 	background-color: #FFFFFF;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
 }
-.daily-report-member {
-	float: left;
-	height: 63px;
-	width: 252px;
-	margin-top: 97px;
+.lorem-ipsum-is-simpl-member{
+	display: inline-block;
+	height: 19px;
+	padding-top: 16px;
 }
-.daily-report-member p{
-	margin: 0px;
-	color: #444444;
-	font-size: 48px;
-	font-weight: 300;
-	line-height: 63px;
-	padding-left: 18px;
+.lorem-ipsum-is-simpl-member span {
+	color: #283238;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 19px;
 }
 .text-lorem-member {
-	width: 564px;
 	color: #283238;
 	font-size: 13px;
 	line-height: 24px;
 	text-align: justify;
-	height: 50px;
 }
 .text-lorem-member-one {
 		padding-top: 30px;
-}
-.text-lorem-customers {
-		padding-top: 38px;
 }
 .ti-check-box {
 	float: left;
 	color: #8BC34A;
 	padding-top: 5px;	
 	font-size: 18px;
-}
-.lorem-member {
-	padding-bottom: 0px !important;
-}
-.lorem-member span{
-	padding-bottom: 0px !important;
 }
 .text-lorem-member span {
 	padding-bottom: 17px;
@@ -428,33 +341,30 @@ header {
 	padding-left: 18px;
 	font-family: Roboto-Regular;
 }
-.marks-right-member img {
-	width: 510px;
-	height: 400px;
+.text-lorem-customers {
+		padding-top: 38px;
 }
-.marks-right-member {
-	float: left;
-	width: 510px;
-	margin-top: 97px;
-	margin-left: 45px;
+.lorem-member {
+	padding-bottom: 0px !important;
 }
-.marks-left-member {
-	width: 560px;
-	margin-left: 390px;
-	float: left;
+.lorem-member span{
+	padding-bottom: 0px !important;
 }
 .mark-customers {
 	height: 661px;
 	width: 1920px;
 }
-.customer-left img{
-	height: 605px !important;
-}
 .ti-face-smile {
 	float: left;
-	margin-top: 144px;
+	margin-top: 14px;
 	color: #444444;	
 	font-size: 36px;	
+}
+.right-customers{
+	float: left;
+	padding-left: 15px;
+	padding-right: 390px;
+	padding-top: 129px;
 }
 .themify-general {
 	float: left;
@@ -521,13 +431,16 @@ header {
 	margin-left: 816px;
 	padding-top: 50px;
 }
+.left-project{
+	padding-top: 97px;
+  padding-right: 100px;
+	padding-left: 390px;
+}
 .ti-calendar {
 	float: left;
-	height: 36px;	
-	width: 36px;	
 	color: #444444;	
 	font-size: 36px;	
-	margin-top: 111px;
+	margin-top: 14px;
 }
 .daily-report-project {
 	float: left;
@@ -546,13 +459,13 @@ header {
 
 .marks-right-project {
 	float: left;
-	width: 615px;
-	margin-left: 131.3px;	
+	width: 858px;
+	padding-left: 31.3px;	
 }
-.marks-right-project img {
+/*.marks-right-project img {
 	width: 858px;
 	height: 636px;
-}
+}*/
 footer {
 	height: 180px;
 	width: 1920px;
@@ -561,7 +474,7 @@ footer {
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
 .mark-footer-column-1 {
-	margin-top: 45px;
+	padding-top: 45px;
 	float: left;
 }
 .hapo-erp {
@@ -614,8 +527,8 @@ footer {
 	text-decoration: none;
 }
 .mark-footer-column-2 {
-	margin-top: 54px;
-	margin-left: 100px;
+	padding-top: 54px;
+	padding-left: 100px;
 	float: left;
 }
 .ti-twitter {
@@ -637,7 +550,7 @@ footer {
 .mark-footer-contact {
 	width: 976px;
 	float: left;
-	margin-left: 389px;
+	padding-left: 389px;
 }
 .mark-footer-link {
 	margin-top: 108px;

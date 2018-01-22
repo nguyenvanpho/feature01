@@ -40,37 +40,46 @@
 		<div class="lorem-ipsum-is-simpl"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 		</div>
 
-		<input type="button" name="btnStart" value="START NOW" class="rectangle-start start-now">		
+		<label class="rectangle-start">
+			<input type="button" name="btnStart" value="START NOW" class="start-now">
+		</label>		
 	</header>
 	<!-- end header -->
 	<!-- i-learnt -->
 	<section class="i-learnt">
-		 <div class="i-learnt-left">
-			<img src="images/browser.png" alt="">
+		<div class="left">
+			<img class="i-learn-left" src="images/browser.png" alt="">
 		</div>
 
-		<div class="i-learnt-right">
-			<div class="ti-bookmark-alt"></div>
-			<div class="today-i-learnt"><p>Today I  learnt</p></div>
-			<div class="lorem-ipsum-is-simpl-copy font-general-regular">
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry
-				</span>
+		<div class="right">
+			<div class="today-i-learnt">
+				<div class="today-i-learnt-title">
+					<label class="ti-bookmark-alt"></label>
+					<p>Today I  learnt</p>
+				</div>
+				<div class="lorem-ipsum-is-simpl-copy font-general-regular">
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					</span>
+				</div>
+				<div class="text-lorem font-general-regular">
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+				<input type="button" name="btnStart" value="START NOW" class="rectangle-start-today-i-learn start-now">
 			</div>
-			<div class="text-lorem font-general-regular">
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-				</p>
-			</div>
-			<input type="button" name="btnStart" value="START NOW" class="rectangle-start-today-i-learn start-now">
 		</div> 
 	</section>
 	<!-- end i-learnt -->
 	<!-- daily-report -->
 	<section class="mark-daily-report">
+		<div class="left">
 		<div class="daily-report-left">
-			<label class="ti-write"></label>
-			<div class="daily-report"><p>Daily report</p> </div>
+			<div class="today-i-learnt-title">
+				<label class="ti-write"></label>
+				<p>Daily report</p>
+			</div>
 			<div class="lorem-ipsum-is-simpl-member font-general-regular">
 				<span>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry
@@ -83,8 +92,9 @@
 			</div>
 			<input type="button" name="btnStart" value="START NOW" class="rectangle-start-three start-now">
 		</div>
-		<div class="daily-report-right">
-			<img src="images/img.png" alt="">
+		</div>
+		<div class="right">
+			<img class="daily-report-right" src="images/img.png" alt="">
 		</div>
 	</section>
 	<!-- end daily-report -->
@@ -92,102 +102,116 @@
 	<!-- select-number -->
 	<section class="select-icon">
 		<div class="select-number">
+			<div class="number-one">
+				<img class="number" src="images/1.png" alt="">
+				<div class="daily-report-name">DAILY REPORT</div>
+			</div>
 
-			<img class="number number-one" src="images/1.png" alt="">
+			<div class="number-one">
+				<img class="number" src="images/2.png" alt="">
+				<div class="daily-report-name">WRITE TIL</div>
+			</div>
 
-			<img class="number number-two" src="images/2.png" alt="">
+			<div class="number-one">
+				<img class="number" src="images/3.png" alt="">
+				<div class="daily-report-name">MANAGE MEMBERS</div>
+			</div>
 
-			<img class="number number-three" src="images/3.png" alt="">
+			<div class="number-one">
+				<img class="number" src="images/4.png" alt="">
+				<div class="daily-report-name">MANAGE CUSTORMER</div>
+			</div>
 
-			<img class="number number-four" src="images/4.png" alt="">
-
-			<img class="number number-five" src="images/5.png" alt="">
-
-		</div>
-
-		<div class="select-text">
-			<div class="daily-report-general daily-report-one">DAILY REPORT</div>
-			<div class="daily-report-general daily-report-two">WRITE TIL</div>
-			<div class="daily-report-three daily-report-general">MANAGE MEMBERS</div>
-			<div class="daily-report-four daily-report-general">MANAGE CUSTORMER</div>
-			<div class="daily-report-five daily-report-general">MANAGE PROJECTS</div>
+			<div class="number-one">
+				<img class="number" src="images/5.png" alt="">
+				<div class="daily-report-name">MANAGE PROJECTS</div>
+			</div>
 		</div>
 	</section>
 	<!-- end select-number -->
 
 	<!-- member -->
 	<section class="mask_member font-general-regular">
-		<div class="marks-left-member">
-			<div class="ti-user"></div>
-			<div class="daily-report-member font-general-light"><p>Members</p></div>
-			<div class="lorem-ipsum-is-simpl-member">
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry
-				</span>
-			</div>
-			<div class="text-lorem-member text-lorem-member-one">
-				<div class="ti-check-box"></div> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
-			</div>
+		<div class="left">
+			<div class="marks-left-member">
+				<div class="today-i-learnt-title">
+					<label class="ti-user"></label>
+					<p>Members</p>
+				</div>
+				<div class="lorem-ipsum-is-simpl-member">
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					</span>
+				</div>
+				<div class="text-lorem-member text-lorem-member-one">
+					<label class="ti-check-box"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
 
-			<div class="text-lorem-member">
-				<label class="ti-check-box"></label> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
-			</div>
+				<div class="text-lorem-member">
+					<label class="ti-check-box"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
 
-			<div class="text-lorem-member lorem-member">
-				<label class="ti-check-box"></label> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
-			</div>
+				<div class="text-lorem-member lorem-member">
+					<label class="ti-check-box"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
 
-			<input type="button" name="btnStart" value="START NOW" class="rectangle-start-two start-now">
+
+				<input type="button" name="btnStart" value="START NOW" class="rectangle-start-two start-now">
+			</div>
 		</div>
-		<div class="marks-right-member">
-			<img src="images/Page 1.svg" alt="">
+		<div class="right">
+			<img class="marks-right-member" src="images/Page 1.svg" alt="">
 		</div>
 	</section>
 	<!-- end member -->
 
 	<!-- customers -->
 	<section class="mark-customers">
-		<div class="i-learnt-left customer-left">
-			<img src="images/browser.png" alt="">
+		<div class="left">
+			<img class="i-learn-left" src="images/browser.png" alt="">
 		</div>
-		<div class="i-learnt-right">
-			<label class="ti-face-smile"></label>
-			<div class="today-i-learnt"><p>Customers </p></div>
-			<div class="lorem-ipsum-is-simpl-copy font-general-regular">
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry
-				</span>
-			</div>
-			<div class="text-lorem-member text-lorem-customers">
-				<label class="ti-unlock themify-general"></label> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
-			</div>
+		<div class="right">
+			<div class="right-customers">
+				<div class="today-i-learnt-title">
+					<label class="ti-face-smile"></label>
+					<p>Customers</p>
+				</div>
+				<div class="lorem-ipsum-is-simpl-copy font-general-regular">
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					</span>
+				</div>
+				<div class="text-lorem-member text-lorem-customers">
+					<label class="ti-unlock themify-general"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
 
-			<div class="text-lorem-member">
-				<label class="ti-cup themify-general"></label> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
-			</div>
+				<div class="text-lorem-member">
+					<label class="ti-cup themify-general"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
 
-			<div class="text-lorem-member lorem-member">
-				<label class="ti-stats-up themify-general"></label> 
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-				</span>
+				<div class="text-lorem-member lorem-member">
+					<label class="ti-stats-up themify-general"></label> 
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+					</span>
+				</div>
+				<input type="button" name="btnStart" value="START NOW" class="rectangle-start-customers start-now">
 			</div>
-			<input type="button" name="btnStart" value="START NOW" class="rectangle-start-customers start-now">
 		</div>
 	</section>
 	<!-- end customers -->
@@ -267,23 +291,28 @@
 
 	<!-- project -->
 	<section class="mark-project">
-		<div class="daily-report-left">
-			<div class="ti-calendar"></div>
-			<div class="daily-report-project font-general-light"><p>Project</p> </div>
-			<div class="lorem-ipsum-is-simpl-member font-general-regular">
-				<span>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry
-				</span>
+		<div class="left">
+			<div class="left-project">
+				<div class="today-i-learnt-title">
+					<label class="ti-calendar"></label>
+					<p>Project</p>
+				</div>
+				<div class="lorem-ipsum-is-simpl-copy font-general-regular">
+					<span>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					</span>
+				</div>
+			
+				<div class="text-lorem-report font-general-regular">
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+				<input type="button" name="btnStart" value="START NOW" class="rectangle-start-today-i-learn start-now">
 			</div>
-			<div class="text-lorem-report font-general-regular">
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-				</p>
-			</div>
-			<input type="button" name="btnStart" value="START NOW" class="rectangle-start-today-i-learn start-now">
 		</div>
-		<div class="marks-right-project">
-			<img src="images/img.png" alt="">
+		<div class="right">
+			<img class="marks-right-project" src="images/img.png" alt="">
 		</div>
 	</section>
 	<!-- end project -->

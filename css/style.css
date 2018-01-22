@@ -27,9 +27,8 @@ header {
 	background-image: url("../images/banner.jpg");
 	background-repeat: no-repeat;
 }
-.sign-in input {	
-	height: 36px;	
-	width: 82px;	
+.sign-in input {
+	padding: 10px 16px;	
 	border: 2px solid #8BC34A;	
 	border-radius: 100px;
 	color: #8BC34A;
@@ -195,8 +194,7 @@ header {
 	margin: 0px;
 }
 .start-now {
-	height: 60px;	
-	width: 225px;	
+	padding: 18px 56px;
 	border-radius: 100px;	
 	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
@@ -338,7 +336,6 @@ header {
 	height: 24px;
 	display: inline-block;
 	margin-left: 386px;
-	/*margin-right: 329px;*/
 	margin-top: 28.75px;
 }
 .daily-report-general {
@@ -511,13 +508,11 @@ header {
  -webkit-transition: all 0.5s;
  transition: 0.1s;
 }
-
 .img-hover:hover {
  -moz-transform: scale(1.2);
  -webkit-transform: scale(1.2);
  transform: scale(1.2);
 }
-
 .img-hover:hover + .customers-name {
     margin-top: 10px;
 }
@@ -607,9 +602,21 @@ footer {
 .about-us-about-hapo{
 	margin: 0px;
 	padding-top: 14px;
-	height: 40px;
 	width: 76px;
+	list-style: none;
 	line-height: 20px;
+}
+.about-us-about-hapo-one{
+	margin: 0px;
+	width: 76px;
+	list-style: none;
+	line-height: 20px;
+}
+.about-us-about-hapo-one a{
+	color: #D0D8DC;
+	font-size: 10px;
+	font-weight: 500;
+	text-decoration: none;
 }
 .mark-footer-column-2 {
 	margin-top: 54px;

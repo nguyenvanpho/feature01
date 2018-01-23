@@ -17,7 +17,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 header {
 	height: 873px;
@@ -320,7 +320,7 @@ header {
 	text-align: justify;
 }
 .text-lorem-member-one {
-		padding-top: 30px;
+	padding-top: 30px;
 }
 .ti-check-box {
 	float: left;
@@ -377,16 +377,25 @@ header {
 	background-image: url('../images/our_customers.jpg');
 }
 .our-customers-employees {
-	padding-top: 48px !important;
+	padding-top: 38px !important;
 	margin: auto !important;
 	height: 127px;
-	width: 1200px;
+	width: 1200px !important;
+}
+.owl-carousel .owl-item{
+	width: 150px !important;
 }
 .our-customers-avatar {
-	float: left;
-	height: 80px;
-	width: 150px;
 	text-align: center;
+	width: 140px;
+  height: 140px;
+  float: left;
+  color: #FFFFFF;
+}
+.owl-carousel .owl-item img{
+	width: 53% !important;
+	padding-top: 10px;
+	margin: auto;
 }
 .customers-name {
 	display: block;
@@ -457,10 +466,6 @@ header {
 	width: 858px;
 	padding-left: 31.3px;	
 }
-/*.marks-right-project img {
-	width: 858px;
-	height: 636px;
-}*/
 footer {
 	height: 180px;
 	width: 1920px;
@@ -583,6 +588,7 @@ footer {
 }
 .our-customers-introduce {
 	height: 191px;
+	padding-top:22px;
 	padding-left: 487px;
 	padding-right: 486px;
 	padding-bottom: 29px;

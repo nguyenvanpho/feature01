@@ -47,10 +47,8 @@ header {
 	display:inline-block;
 }
 .logo {
-	width: 256px;
+	text-align: center;
 	height: 77px;
-	margin-left: 832px;
-	margin-right: 832px;
 	margin-top: 165px;
 }
 .logo img {
@@ -199,10 +197,9 @@ header {
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-.rectangle-start {	
-	margin-left: 847px !important;
-	/*margin-top: 22px !important;*/
-	margin-bottom: 232px !important;
+.rectangle-start {
+	text-align: center;
+	padding-bottom: 232px !important;
 }
 .rectangle-start-today-i-learn {
 	margin-bottom: 128px;
@@ -379,15 +376,16 @@ header {
 	background-image: url('../images/our_customers.jpg');
 }
 .our-customers-employees {
-	margin-top: 48px;
-	margin-left: 320px;
+	padding-top: 48px !important;
+	margin: auto !important;
 	height: 127px;
-	width: 1300px;
+	width: 1200px;
 }
 .our-customers-avatar {
 	float: left;
 	height: 80px;
 	width: 150px;
+	text-align: center;
 }
 .customers-name {
 	display: block;
@@ -395,7 +393,7 @@ header {
 	font-size: 13px;
 	font-weight: 300;
 	line-height: 14px;
-	padding-left: 88px;
+	text-align: center;
   padding-top: 16px;	
 }
 .customers-job {
@@ -404,11 +402,10 @@ header {
 	font-weight: 300;
 	line-height: 14px;
 	font-size: 10px;
-	padding-left: 95px;
+	text-align: center;
 	padding-top:2px;
 }
 .img-hover {
- margin-left: 78px;
  -moz-transition: all 0.5s;
  -webkit-transition: all 0.5s;
  transition: 0.1s;
@@ -422,13 +419,11 @@ header {
     margin-top: 10px;
 }
 .our-customer {
-	height: 63px;
-	width: 300px;
 	color: #FFFFFF;
 	font-size: 48px;
 	font-weight: 300;
 	line-height: 63px;
-	margin-left: 816px;
+	text-align: center;
 	padding-top: 50px;
 }
 .left-project{
@@ -456,7 +451,6 @@ header {
 	line-height: 63px;
 	padding-left: 18px;
 }
-
 .marks-right-project {
 	float: left;
 	width: 858px;
@@ -566,7 +560,8 @@ footer {
 	width: 1920px;
 }
 .customers-layout {
-	margin-left: 923px;
+	margin: auto;
+	width: 85px;
 	height: 12px;
 	float: none;
 }
@@ -587,9 +582,9 @@ footer {
 }
 .our-customers-introduce {
 	height: 191px;
-	margin-left: 487px;
-	margin-right: 486px;
-	margin-bottom: 29px;
+	padding-left: 487px;
+	padding-right: 486px;
+	padding-bottom: 29px;
 }
 .themify-our-customer-general {
 	height: 73px;

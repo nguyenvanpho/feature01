@@ -464,7 +464,8 @@ header {
 .marks-right-project {
 	float: left;
 	width: 858px;
-	padding-left: 31.3px;	
+	padding-left: 31.3px;
+	margin-top: 34px;	
 }
 footer {
 	height: 180px;
